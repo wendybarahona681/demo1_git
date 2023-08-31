@@ -1,3 +1,4 @@
+import 'package:demo1_git/home.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -10,13 +11,14 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(git
+    return MaterialApp(
       title: 'Flutter Demo',
+
       theme: ThemeData(
 
         primarySwatch: Colors.blue,
       ),
-      home: const MyHomePage(title: 'Flutter Demo Home Page'),
+      home:  MyHomePage(title: 'dem widget'),
     );
   }
 }
