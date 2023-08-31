@@ -10,7 +10,7 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return MaterialApp(git
       title: 'Flutter Demo',
       theme: ThemeData(
 
@@ -53,7 +53,7 @@ class _MyHomePageState extends State<MyHomePage> {
       body: Center(
 
         child: Column(
-          
+
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             const Text(
